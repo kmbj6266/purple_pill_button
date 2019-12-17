@@ -1,0 +1,43 @@
+.purplepill {
+    display: flex;
+    width: 17rem;
+    height: 4.5rem;
+    /*  total height with top and bottom padding is 5.3rem=53px */
+    padding: 0.4rem .3rem 0.4rem;
+    border-radius: 50px;
+    background: #3E1B6F;
+    border: none;
+  }
+  .cart-items, .card-pts {
+    height: 3.7rem;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+  }
+  .cart-items {
+    width: 45%;
+    border-right: 2px solid white;
+  }
+  .cart-items i, .cart-items span {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .cart-items i {
+    font-family: "Font Awesome 5 Pro";
+    font-size: 2.25rem;
+    line-height: 1.7;
+  }
+  .cart-items span {
+    font-size: 2rem;
+    line-height: 1.8;
+  }
+  .card-pts {
+    width: 55%;
+  }
+  .card-pts span {
+    line-height: 2.3;
+    font-size: 1.6rem;
+  }

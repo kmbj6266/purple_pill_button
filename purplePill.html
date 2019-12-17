@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta name="description" content="purple pill button" />
+    <title>Kathy Borne - Purple pill HTML, CSS, JAVASCRIPT</title>
+    <link rel="stylesheet" href="pill.css" />
+    <meta charset="utf-8" />
+    <script src="https://use.fontawesome.com/d45b8ad296.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
+</head>
+
+<body>
+    <button class="purplepill" id="pillbutton" onclick="purplepill()">
+        <span class="cart-items">
+            <i class="far fa-shopping-cart">&nbsp;</i>
+            <span>2</span>
+        </span>
+        <span class="card-pts"><span>500 PTS</span></span>
+    </button>
+
+    <script>
+        let theButton = document.getElementById('pillbutton');
+    
+        theButton.onclick = function () {
+            { alert("purple pills are bad") };
+        };
+    </script>
+</body>
+
